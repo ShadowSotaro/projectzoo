@@ -1,0 +1,47 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.auth-form form{
+
+    margin-top: 150px;
+    background-color: #fff5;
+    padding: 40px 60px ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 300px ;
+}
+
+.auth-form h1{
+
+    text-align: center;
+}
+
+.authform .inputs {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form .inputs input[type="email"], input[type="password"],input[type="text"]{
+
+    padding: 17px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fffc;
+    margin-bottom: 10px; 
+    outline : none;
+
+}
+
+.auth-form .inscription { 
+
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
